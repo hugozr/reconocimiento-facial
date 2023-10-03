@@ -4,7 +4,7 @@ import numpy as np
 
 # dataPath = 'C:/Users/Gaby/Desktop/Reconocimiento Facial/Data' #Cambia a la ruta donde hayas almacenado Data
 # dataPath = 'D:/hzumaeta/27.IA/2023/04.Demos/data'
-dataPath = 'C:/ehzr/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
+dataPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
 
 peopleList = os.listdir(dataPath)
 print('Lista de personas: ', peopleList)

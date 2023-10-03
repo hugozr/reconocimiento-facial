@@ -2,13 +2,13 @@ import cv2
 import os
 import imutils
 
-personName = 'pedro'
+personName = 'jessica'
 # dataPath = 'C:/Users/Gaby/Desktop/Reconocimiento Facial/Data' #Cambia a la ruta donde hayas almacenado Data
 # dataPath = 'D:/hzumaeta/27.IA/2023/04.Demos/data'
-dataPath = 'C:/ehzr/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
+dataPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
 
 # videosPath = 'D:/hzumaeta/27.IA/2023/04.Demos/videos/'
-videosPath = 'C:/ehzr/14.OPENCV/6 RECONOCIMIENTO FACIAL/videos/'
+videosPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/videos/'
 
 personPath = dataPath + '/' + personName
 
@@ -16,8 +16,8 @@ if not os.path.exists(personPath):
 	print('Carpeta creada: ',personPath)
 	os.makedirs(personPath)
 
-# cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
-cap = cv2.VideoCapture(videosPath+ 'pedro.mp4')
+cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
+# cap = cv2.VideoCapture(videosPath+ 'claudio.mp4')
 
 faceClassif = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
 count = 0
