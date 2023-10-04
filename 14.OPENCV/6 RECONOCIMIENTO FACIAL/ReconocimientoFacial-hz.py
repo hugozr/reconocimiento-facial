@@ -2,8 +2,8 @@ import cv2
 import os
 
 # dataPath = 'C:/Users/Gaby/Desktop/Reconocimiento Facial/Data' #Cambia a la ruta donde hayas almacenado Data
-# dataPath = 'D:/hzumaeta/27.IA/2023/04.Demos/data'
-dataPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
+dataPath = 'E:/hzumaeta/27.IA/2023/04.Demos/data'
+# dataPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
 
 imagePaths = os.listdir(dataPath)
 print('imagePaths=',imagePaths)

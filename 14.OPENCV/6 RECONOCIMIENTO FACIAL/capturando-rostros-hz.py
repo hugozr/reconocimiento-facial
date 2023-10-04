@@ -2,13 +2,14 @@ import cv2
 import os
 import imutils
 
-personName = 'jessica'
+personName = 'hz'
 # dataPath = 'C:/Users/Gaby/Desktop/Reconocimiento Facial/Data' #Cambia a la ruta donde hayas almacenado Data
-# dataPath = 'D:/hzumaeta/27.IA/2023/04.Demos/data'
-dataPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
+dataPath = 'E:/hzumaeta/27.IA/2023/04.Demos/data'
+# dataPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/data'
 
-# videosPath = 'D:/hzumaeta/27.IA/2023/04.Demos/videos/'
-videosPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/videos/'
+
+videosPath = 'E:/hzumaeta/27.IA/2023/04.Demos/videos/'
+# videosPath = 'C:/ehzr/14.Reconocimiento facial/14.OPENCV/6 RECONOCIMIENTO FACIAL/videos/'
 
 personPath = dataPath + '/' + personName
 
